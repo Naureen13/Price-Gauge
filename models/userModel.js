@@ -17,13 +17,13 @@ const userSchema= new mongoose.Schema({
         required:true,
     }
 },{timestamps:true}); //time at which id is created will be added automatically
-
 //generating tokens
 // userSchema.methods.generateAuthToken= async function(){
 //     const token=jwt.sign({_id:this._id.toString()},"mynameisnaureenandiwantthistowork"); 
 //     console.log(token);
+// jefbfnjvf
     
 // } 
-
+console.log("hi");
 const User=mongoose.model('User',userSchema);
 module.exports=User;
